@@ -1,26 +1,30 @@
-
 import Image from 'next/image';
 
 const BrandValues = () => {
   return (
-    <section className="bg-gray-100 py-20">
+    <section className="bg-[#E6E0D8] py-20">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2">
+        <div className="flex flex-col md:flex-row items-center relative">
+          <div className="md:w-2/3 relative z-10">
             <Image
-              height={400}
-              width={400}
-              src="/placeholder.svg"
+              height={600}
+              width={800}
+              src="/brand-values.jpg"
               alt="Brand Values Image"
               className="w-full h-auto rounded-md shadow-md"
             />
           </div>
-          <div className="md:w-1/2 md:pl-12 mt-10 md:mt-0">
-            <div className="bg-black text-white p-8 rounded-md shadow-md">
+          <div className="md:w-1/2 md:absolute right-0 top-1/2 transform -translate-y-1/2 -translate-x-1/2 mt-10 md:mt-0 z-20">
+            <div className="bg-black text-white text-center p-8 rounded-md shadow-md md:ml-12">
               <h2 className="text-4xl font-bold mb-4">Brand Values</h2>
-              <p className="mb-8">
-                Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Nullam nunc justo sagittis suscipit ultrices.
+              <p>
+                Sample text. Lorem ipsum dolor sit amet, <br /> consectetur
+                adipiscing elit. Nullam nunc justo <br /> sagittis suscipit
+                ultrices.
+              </p>
+
+              <p className="my-8">
+                Image from <span className="underline">Freepik</span>
               </p>
               <a
                 href="#"
