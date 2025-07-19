@@ -4,27 +4,27 @@ const Portfolio = () => {
   const portfolioItems = [
     {
       title: 'Website Design',
-      image: '/portfolio-1.jpg',
+      image: '/portfolio-1.png',
     },
     {
       title: 'Mobile Application',
-      image: '/portfolio-2.jpg',
+      image: '/portfolio-2.png',
     },
     {
       title: 'Corporate Design',
-      image: '/portfolio-3.jpg',
+      image: '/portfolio-3.png',
     },
     {
       title: 'Mobile Application',
-      image: '/portfolio-4.jpg',
+      image: '/portfolio-4.png',
     },
     {
       title: 'Responsive Design',
-      image: '/portfolio-5.jpg',
+      image: '/portfolio-5.png',
     },
     {
       title: 'Digital Product',
-      image: '/portfolio-6.jpg',
+      image: '/portfolio-6.png',
     },
   ];
 

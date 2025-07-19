@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 const ContactUs = () => {
   return (
-    <section className="bg-[#E6E0D8] py-20">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-2/5 bg-white p-8 rounded-md h-full text-center">
+    <section className="bg-[#E6E0D8] pt-20">
+      <div className="container ml-auto mt-auto">
+        <div className="flex flex-col md:flex-row items-center bg-white rounded-md">
+          <div className="md:w-2/3 p-8 h-full text-center">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
               Contact Us
             </h2>
@@ -32,13 +32,13 @@ const ContactUs = () => {
               </p>
             </div>
           </div>
-          <div className="md:w-1/2 mt-10 md:mt-0">
+          <div className="md:w-3/4 mt-10 md:mt-0">
             <Image
               height={400}
               width={400}
-              src="/contact-us.jpg"
+              src="/contact-us.png"
               alt="Contact Us Image"
-              className="w-full h-auto rounded-md shadow-md"
+              className="w-full h-auto"
             />
           </div>
         </div>
