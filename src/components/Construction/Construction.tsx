@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Construction = () => {
   return (
-    <section className="bg-[#feb800]">
+    <section className="bg-[#feb800] py-20 md:py-0">
       <div className="flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 mb-10 md:mb-0">
           <Image
@@ -13,7 +13,7 @@ const Construction = () => {
             className="w-full h-auto"
           />
         </div>
-        <div className="md:w-1/2 md:pl-12 text-white text-center md:text-left">
+        <div className="md:w-1/2 h-auto md:pl-12 text-white text-center md:text-left">
           <h2 className="text-4xl font-bold mb-4">
             Construction and renovation projects
           </h2>

@@ -18,7 +18,7 @@ const Hero = () => {
 
           <div className="absolute top-[16%] right-[16%] inset-0 flex flex-col lg:flex-row items-start justify-between h-full">
             {/* Text Content Card */}
-            <div className="relative w-full bg-white py-8 pl-8 pr-32 shadow-lg mt-8 lg:mt-16 z-0">
+            <div className="relative w-full bg-white py-8 pl-8 pr-32 shadow-lg my-0 lg:my-16 z-0">
               <h1 className="text-3xl lg:text-4xl font-bold text-black mb-6 leading-tight">
                 We Create Websites
               </h1>
