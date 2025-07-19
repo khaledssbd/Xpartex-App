@@ -25,7 +25,7 @@ const BrandValues = () => {
             <Image
               height={600}
               width={800}
-              src="/brand-values-4.jpg"
+              src="/brand-values-3.jpg"
               alt="Brand Values Image"
               className="w-2/3 h-auto"
             />
