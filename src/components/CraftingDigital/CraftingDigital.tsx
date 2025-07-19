@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const CraftingDigital = () => {
   return (
-    <section className="relative h-screen">
+    <section className="relative min-h-screen">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
