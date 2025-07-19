@@ -30,7 +30,8 @@ const BrandValues = () => {
               className="w-2/3 h-auto"
             />
           </div>
-          <div className="md:w-1/2 md:absolute right-0 top-1/2 transform -translate-y-1/2 -translate-x-1/2 mt-10 md:mt-0 z-20">
+          {/* Brand Values Section */}
+          <div className="md:w-1/2 absolute left-[50%] top-1/2 transform -translate-y-1/2 -translate-x-1/2 mt-10 md:mt-0 z-20">
             <div className="bg-black text-white text-center p-8 rounded-md shadow-md md:ml-12">
               <h2 className="text-4xl font-bold mb-4">Brand Values</h2>
               <p>
